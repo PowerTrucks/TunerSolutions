@@ -1,0 +1,78 @@
+###BOTTLING### default.sh
+/Applications/WineBottler.app/Contents/Frameworks/WBottler.framework/Resources/bottler.sh: line 39: /Applications/Wine.app/Contents/Resources/bin/wine: Bad CPU type in executable
+###BOTTLING### Gathering debug Info...
+
+Versions
+OS...........................: darwin19
+Wine.........................: 
+WineBottler..................: 4.0.1.1
+Wineticks....................: 20200412-next - sha256sum: 5f353d4e494e06ccd7cf1f3065b44e88c4c2d445ebdf6435b8cf276d0685acfd
+
+Environment
+PWD..........................: /Applications/Wine.app/Contents/Resources/bin
+PATH.........................: /Applications/Wine.app/Contents/Resources/bin:/usr/bin:/bin:/usr/sbin:/sbin
+USER.........................: mbf
+HOME.........................: /Users/mbf
+COMPUTERNAME.................: Mini MacBook Pro
+BUNDLERESOURCEPATH...........: /Applications/WineBottler.app/Contents/Frameworks/WBottler.framework/Resources
+WINEARCH.....................: win32
+WINEPREFIX...................: /Applications/Wine.app/Contents/Resources
+WINEPATH.....................: /Applications/Wine.app/Contents/Resources/bin
+LD_LIBRARY_PATH..............: /Applications/Wine.app/Contents/Resources/lib
+DYLD_FALLBACK_LIBRARY_PATH...: /Applications/Wine.app/Contents/Resources/lib:/usr/lib
+SILENT.......................: 
+http_proxy...................: 
+https_proxy..................: 
+ftp_proxy....................: 
+socks5_proxy.................: 
+
+Bottle
+TEMPLATE.....................: 
+BOTTLE.......................: /Users/mbf/Downloads/magic.app
+INSTALLER_URL................: /Users/mbf/Downloads/TunerSolution.exe
+INSTALLER_IS_ZIPPED..........: 0
+INSTALLER_NAME...............: TunerSolution.exe
+INSTALLER_ARGUMENTS..........: 
+REMOVE_MONO..................: 
+REMOVE_GECKO.................: 
+REMOVE_USERS.................: 
+REMOVE_INSTALLERS............: 
+WINETRICKS_ITEMS.............: arch=32 win7 
+DLL_OVERRIDES................: 
+EXECUTABLE_PATH..............: winefile
+EXECUTABLE_ARGUMENTS.........: 
+EXECUTABLE_VERSION...........: 1.0.0
+BUNDLE_COPYRIGHT.............: TuneMyTrucks
+BUNDLE_IDENTIFIER............: com.mbf.prodcuctions.magictuner
+BUNDLE_CATEGORYTYPE..........: public.app-category.business
+BUNDLE_SIGNATURE.............: 
+SILENT.......................: 
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro16,2
+      Processor Name: Quad-Core Intel Core i7
+      Processor Speed: 2.3 GHz
+      Number of Processors: 1
+      Total Number of Cores: 4
+      L2 Cache (per Core): 512 KB
+      L3 Cache: 8 MB
+      Hyper-Threading Technology: Enabled
+      Memory: 32 GB
+      Boot ROM Version: 1037.147.4.0.0 (iBridge: 17.16.16610.0.0,0)
+      Serial Number (system): C02CQ03VML7K
+      Hardware UUID: 0E991009-4AB6-56E6-92F1-00BF8BEE5F11
+      Activation Lock Status: Enabled
+
+###BOTTLING### Create .app...
+###BOTTLING### Enabling CoreAudio, Colors, Antialiasing  and flat menus...
+/Applications/WineBottler.app/Contents/Frameworks/WBottler.framework/Resources/bottler.sh: line 142: /Applications/Wine.app/Contents/Resources/bin/wine: Bad CPU type in executable
+### LOG ### Command '/Applications/Wine.app/Contents/Resources/bin/wine regedit /tmp/reg.reg' returned status 126.
+
+
+
+###ERROR### Command '/Applications/Wine.app/Contents/Resources/bin/wine regedit /tmp/reg.reg' returned status 126.
+Task returned with status 1.
